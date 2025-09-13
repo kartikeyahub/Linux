@@ -1,6 +1,6 @@
 # Handout: Introduction to Linux
 
-## What is Linux?
+## 1. What is Linux?
 
 ### Core Concept
 Linux is an open-source operating system kernel. The kernel is the core program that manages the computer's hardware (CPU, memory, devices) and allows software to run.
@@ -14,7 +14,7 @@ The source code for Linux is freely available for anyone to view, modify, and di
 ### Creator
 The Linux kernel was created by **Linus Torvalds** in 1991.
 
-## Everyday Use of Linux
+## 2. Everyday Use of Linux
 You might use Linux every day without even knowing it!
 
 - **Servers**: The vast majority of web servers, cloud infrastructure (like AWS and Google Cloud), and supercomputers run on Linux due to its stability, security, and efficiency.
@@ -27,7 +27,7 @@ You might use Linux every day without even knowing it!
 
 - **Desktop Computing**: User-friendly distros like Ubuntu and Linux Mint offer a complete alternative to Windows or macOS for browsing, office work, and creative projects.
 
-## Unix vs. Linux
+## 3. Unix vs. Linux
 
 | Feature | Unix | Linux |
 |---------|------|-------|
@@ -39,9 +39,7 @@ You might use Linux every day without even knowing it!
 | **Kernel** | Monolithic kernel. | Monolithic kernel. |
 | **Variants** | Different "flavors" from different vendors (Solaris, HP-UX, AIX). | Different distributions from different communities/companies (Ubuntu, Red Hat, Arch). |
 
-# Server vs Client Operating Systems
-
-## 1. What is Server and Client OS?
+## 4. What is Server and Client OS?
 
 ### Server Operating System
 A **server OS** is designed specifically to run on servers, which are powerful computers that provide services, resources, or data to other computers (clients) over a network.
@@ -69,7 +67,7 @@ A **client OS** is designed for end-user devices like desktops, laptops, and wor
 
 **Examples:** Windows 10/11, macOS, Ubuntu Desktop, Fedora Workstation
 
-## 2. Linux Client and Server OS
+## 5. Linux Client and Server OS
 
 ### Linux Client OS (Desktop Distributions)
 Linux distributions designed for personal computing and end-user workstations.
