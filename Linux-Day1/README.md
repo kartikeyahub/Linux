@@ -1,125 +1,96 @@
-# Handout: Introduction to Linux
+# Quiz: Linux Basics
 
-## 1. What is Linux?
+**Instructions:** Choose the best answer for each question.
 
-### Core Concept
-Linux is an open-source operating system kernel. The kernel is the core program that manages the computer's hardware (CPU, memory, devices) and allows software to run.
+---
 
-### What we call "Linux"
-When people say "Linux," they usually mean a **Linux distribution** (or "distro"). This is the Linux kernel bundled with other software like system libraries, graphical desktops, and application programs (e.g., web browsers, office suites). Popular distros include Ubuntu, Fedora, and Debian.
+**1. What is Linux technically?**
+a) A full operating system with a desktop environment  
+b) An open-source web browser  
+**c) The core kernel of an operating system**  
+d) A type of software license  
 
-### Open Source
-The source code for Linux is freely available for anyone to view, modify, and distribute. This encourages collaboration and rapid innovation.
+---
 
-### Creator
-The Linux kernel was created by **Linus Torvalds** in 1991.
+**2. Who created the Linux kernel?**
+a) Richard Stallman  
+b) Steve Jobs  
+**c) Linus Torvalds**  
+d) Bill Gates  
 
-## 2. Everyday Use of Linux
-You might use Linux every day without even knowing it!
+---
 
-- **Servers**: The vast majority of web servers, cloud infrastructure (like AWS and Google Cloud), and supercomputers run on Linux due to its stability, security, and efficiency.
+**3. Which of the following is NOT a common use for Linux?**
+a) Powering web servers  
+b) Running the Android operating system  
+**c) Being the primary kernel for Apple's macOS**  
+d) Controlling smart home devices  
 
-- **Android**: The Android mobile operating system is built on top of the Linux kernel.
+---
 
-- **Embedded Systems**: Runs on devices like smart TVs, routers, smartwatches, and car entertainment systems.
+**4. A "Linux distribution" (or distro) typically includes:**
+a) Only the Linux kernel  
+**b) The kernel, system software, and often a desktop environment**  
+c) Only application software like word processors  
+d) Only the kernel and device drivers  
 
-- **Developers & Programmers**: A preferred environment for development because of powerful built-in command-line tools and compatibility with programming languages.
+---
 
-- **Desktop Computing**: User-friendly distros like Ubuntu and Linux Mint offer a complete alternative to Windows or macOS for browsing, office work, and creative projects.
+**5. The main philosophical difference between traditional Unix and Linux is:**
+a) Linux is not command-line based.  
+b) Unix is free, while Linux is expensive.  
+**c) Unix is largely proprietary, while Linux is open source.**  
+d) They use completely different kernels.  
 
-## 3. Unix vs. Linux
+---
 
-| Feature | Unix | Linux |
-|---------|------|-------|
-| **Origin** | Developed in the 1970s at AT&T Bell Labs. | Inspired by Unix, created in 1991 by Linus Torvalds. |
-| **Philosophy** | "Everything is a file." | Follows the same Unix philosophy. |
-| **Cost** | Historically proprietary and expensive. Some versions are free (e.g., BSD). | Free and Open Source. You can download and use it without cost. |
-| **Development** | Developed by specific companies (e.g., Oracle Solaris, IBM AIX). | Developed collaboratively by a global community of developers. |
-| **Hardware** | Originally designed for specific, often high-end, hardware. | Highly portable and runs on a huge variety of hardware, from phones to supercomputers. |
-| **Kernel** | Monolithic kernel. | Monolithic kernel. |
-| **Variants** | Different "flavors" from different vendors (Solaris, HP-UX, AIX). | Different distributions from different communities/companies (Ubuntu, Red Hat, Arch). |
+**6. True or False: You have to pay for a license to use Linux legally.**
+a) True  
+**b) False**  
 
-## 4. What is Server and Client OS?
+---
 
-### Server Operating System
-A **server OS** is designed specifically to run on servers, which are powerful computers that provide services, resources, or data to other computers (clients) over a network.
+**7. Which of these is a popular Linux distribution for beginners?**
+a) AIX  
+b) Solaris  
+**c) Ubuntu**  
+d) HP-UX  
 
-**Key Characteristics:**
-- Optimized for stability, security, and network performance
-- Handles multiple simultaneous connections and requests
-- Typically runs headless (without GUI) to conserve resources
-- Includes server-specific services (web server, file server, database server)
-- Designed for 24/7 operation with minimal downtime
-- Advanced user management and permission controls
+---
 
-**Examples:** Windows Server, Linux Server distributions, Unix-based systems
+**8. The term "Open Source" means:**
+a) The software is always free of cost.  
+**b) The source code is available for anyone to study, modify, and redistribute.**  
+c) The software can only be used on servers.  
+d) The software has no copyright.  
 
-### Client Operating System
-A **client OS** is designed for end-user devices like desktops, laptops, and workstations that access services from servers.
+---
 
-**Key Characteristics:**
-- Focused on user interface and user experience
-- Includes graphical desktop environments
-- Optimized for individual user productivity
-- Runs consumer applications (browsers, office suites, media players)
-- Typically used by a single user at a time
-- Less demanding hardware requirements compared to server OS
+**9. Most of the world's web servers run on:**
+a) Windows  
+b) macOS  
+**c) Linux**  
+d) ChromeOS  
 
-**Examples:** Windows 10/11, macOS, Ubuntu Desktop, Fedora Workstation
+---
 
-## 5. Linux Client and Server OS
+**10. Linux is considered a _____-like operating system.**
+a) Windows  
+**b) Unix**  
+c) DOS  
+d) Android  
 
-### Linux Client OS (Desktop Distributions)
-Linux distributions designed for personal computing and end-user workstations.
+---
 
-**Popular Linux Client OS Examples:**
-- **Ubuntu Desktop** - User-friendly, great for beginners
-- **Fedora Workstation** - Cutting-edge features, developer-friendly
-- **Linux Mint** - Windows-like interface, very user-friendly
-- **Pop!\_OS** - Optimized for developers and gaming
-- **Manjaro** - User-friendly Arch-based distribution
+## Answer Key
 
-**Key Features:**
-- Graphical desktop environments (GNOME, KDE, XFCE, etc.)
-- Pre-installed applications (web browsers, office suites, media players)
-- User-friendly installation process
-- Hardware driver support for consumer devices
-- Regular updates with new features
-
-### Linux Server OS (Server Distributions)
-Linux distributions optimized for server environments and enterprise use.
-
-**Popular Linux Server OS Examples:**
-- **Ubuntu Server** - Popular for cloud and enterprise deployments
-- **Red Hat Enterprise Linux (RHEL)** - Commercial, enterprise-focused
-- **CentOS** - Community version of RHEL (now CentOS Stream)
-- **Debian** - Stable, reliable, community-driven
-- **SUSE Linux Enterprise Server** - Enterprise-focused with strong support
-
-**Key Features:**
-- Minimal installation footprint (often no GUI by default)
-- Optimized for performance and stability
-- Long-term support (LTS) versions available
-- Advanced security features (SELinux, AppArmor)
-- Built-in server applications and services
-- Command-line focused administration
-- Enterprise support options available
-
-### Comparison Table: Linux Client vs Server OS
-
-| Feature | Linux Client OS | Linux Server OS |
-|---------|-----------------|-----------------|
-| **Primary Use** | Desktop computing, personal use | Hosting services, enterprise applications |
-| **Interface** | Graphical (GUI) | Command-line (CLI) primarily |
-| **Pre-installed Software** | Desktop applications, browsers | Server applications, development tools |
-| **Hardware Requirements** | Moderate (depends on desktop environment) | Minimal (can run on older hardware) |
-| **Security Focus** | User privacy, application security | Network security, service hardening |
-| **Update Cycle** | Frequent feature updates | Stable, security-focused updates |
-| **Administration** | Graphical tools, some terminal use | Primarily command-line, remote management |
-| **Cost** | Mostly free | Free or subscription-based (enterprise support) |
-
-### Can You Use a Client OS as Server or Vice Versa?
-- **Client OS as Server**: Possible but not optimal (install server packages on desktop OS)
-- **Server OS as Client**: Possible but requires installing desktop environment and applications
-
-**Note:** Many Linux distributions offer both server and client editions from the same codebase, with different default packages and configurations.
+1. **c**  
+2. **c**  
+3. **c**  
+4. **b**  
+5. **c**  
+6. **b**  
+7. **c**  
+8. **b**  
+9. **c**  
+10. **b**
